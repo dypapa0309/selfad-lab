@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <br><br><br><title>회원가입 - Slef AD Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="container">
+            <a href="/index.html" class="logo">Slef AD Lab</a> <!-- 홈 페이지로 이동 -->
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="/index.html">홈</a></li> <!-- 홈 페이지 -->
+                <li><a href="/about.html">소개</a></li> <!-- 소개 페이지 -->
+                <li><a href="/services.html">서비스</a></li> <!-- 서비스 페이지 -->
+                <li><a href="/projects.html">프로젝트</a></li> <!-- 프로젝트 페이지 -->
+                <li><a href="/signup.html" class="btn-primary">회원가입</a></li> <!-- 회원가입 페이지 -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="signup" class="signup-section">
+        <div class="container">
+            <h2 class="section-title">회원가입</h2>
+            <p>가입 하시면 3S Story system을 <br>셀프 적용하실 수 있는 <br>전자책을 무료로 보내드립니다.</p>
+            <form id="signupForm" class="signup-form">
+                <input type="email" id="email" placeholder="이메일" required>
+                <input type="password" id="password" placeholder="비밀번호" required>
+                <button type="submit" class="btn-primary">가입하기</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 3S Story. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
